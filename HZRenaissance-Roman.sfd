@@ -23,7 +23,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1464719618
-ModificationTime: 1555112611
+ModificationTime: 1555185314
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -58,6 +58,7 @@ OS2XHeight: 449
 OS2Vendor: 'UKWN'
 OS2CodePages: 6000009f.00000000
 OS2UnicodeRanges: 00000287.00000800.00000000.00000000
+Lookup: 1 0 0 "'onum' Oldstyle Figures lookup 22" { "'onum' Oldstyle Figures lookup 22-1" ("onum") } ['onum' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DEU ' 'MOL ' 'ROM ' 'SRB ' 'TRK ' 'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' Access All Alternates lookup 0" { "'aalt' Access All Alternates lookup 0 subtable"  } ['aalt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DEU ' 'MOL ' 'ROM ' 'SRB ' 'TRK ' 'dflt' > ) ]
 Lookup: 3 0 0 "'aalt' Access All Alternates lookup 1" { "'aalt' Access All Alternates lookup 1 subtable"  } ['aalt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DEU ' 'MOL ' 'ROM ' 'SRB ' 'TRK ' 'dflt' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 2" { "'locl' Localized Forms in Latin lookup 2 subtable"  } ['locl' ('latn' <'MOL ' 'ROM ' > ) ]
@@ -133,22 +134,22 @@ BeginChars: 865 864
 StartChar: zero.onum
 Encoding: 854 -1 0
 Width: 500
-Flags: HW
-HStem: -20 34<193.828 308.708> 445 32<186.207 306.275>
-VStem: 23 85<115.227 335.551> 392 85<139.059 353.71>
+Flags: W
+HStem: -20 34<186.328 312.713> 442 32<187.286 319.479>
+VStem: 23 85<112.656 323.604> 392 85<132.927 355.2>
 LayerCount: 2
 Fore
 SplineSet
-263 477 m 3
- 325.008063992 477 477 451 477 250 c 7
- 477 82.9970060149 375.015036744 -20 242 -20 c 3
- 120.983472203 -20 23 80 23 222 c 3
- 23 400 145.995726574 477 263 477 c 3
-247 445 m 3
- 188 445 108 404 108 247 c 3
- 108 63.99726778 193 14 251 14 c 3
- 331 14 392 88 392 225 c 3
- 392 404.011172836 306 445 247 445 c 3
+263 474 m 3
+ 336.006848994 474 477 431.00276241 477 250 c 7
+ 477 82.9970060149 368.014648438 -20 235 -20 c 3
+ 113.983398438 -20 23 80 23 222 c 3
+ 23 357 123 474 263 474 c 3
+247 442 m 3
+ 188 442 108 404 108 247 c 3
+ 108 63.99726778 173.974030353 14 251 14 c 3
+ 331 14 392 76.9864871034 392 225 c 3
+ 392 404.011172836 330.006023878 442 247 442 c 3
 EndSplineSet
 EndChar
 
@@ -320,11 +321,11 @@ VStem: 39 72<483 569 483 570.5> 283 72<489 573.5> 486 72<115 201 115 202.5> 730 
 LayerCount: 2
 Fore
 SplineSet
-203 689 m 0
+203 689 m 0xf780
  291 689 355 624 355 535 c 0
  355 439 286 368 193 368 c 0
  103 368 39 432 39 522 c 0
- 39 619 108 689 203 689 c 0
+ 39 619 108 689 203 689 c 0xf780
 200 666 m 0
  145 666 111 612 111 526 c 0
  111 440 141 391 194 391 c 0
@@ -343,7 +344,7 @@ SplineSet
 250 -20 m 1
  210 -20 l 1
  576 709 l 1
- 616 709 l 1
+ 616 709 l 1xef80
  250 -20 l 1
 EndSplineSet
 Ligature2: "'frac' Diagonal Fractions lookup 6 subtable" zerosuperior fraction zerosuperior
@@ -627,6 +628,7 @@ SplineSet
  370 119 381 193 381 316 c 0
  381 556 342 654 245 654 c 0
 EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22-1" zero.onum
 Substitution2: "'sups' Superscript lookup 3 subtable" zerosuperior
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" zerosuperior
 EndChar
@@ -660,6 +662,7 @@ SplineSet
  77 555 l 1
  67 555 l 1x90
 EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22-1" one.onum
 Substitution2: "'sups' Superscript lookup 3 subtable" onesuperior
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" onesuperior
 EndChar
@@ -692,6 +695,7 @@ SplineSet
  195 0 138 -1 16 -3 c 1
  16 23 l 1x90
 EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22-1" two.onum
 Substitution2: "'sups' Superscript lookup 3 subtable" twosuperior
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" twosuperior
 EndChar
@@ -732,6 +736,7 @@ SplineSet
  74 498 l 1
  43 498 l 1xf0
 EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22-1" three.onum
 Substitution2: "'sups' Superscript lookup 3 subtable" threesuperior
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" threesuperior
 EndChar
@@ -773,6 +778,7 @@ SplineSet
  65 245 l 1
  280 245 l 1
 EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22-1" four.onum
 Substitution2: "'sups' Superscript lookup 3 subtable" foursuperior
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" foursuperior
 EndChar
@@ -812,6 +818,7 @@ SplineSet
  432 600 l 1
  309 600 254 601 127 605 c 1
 EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22-1" five.onum
 Substitution2: "'sups' Superscript lookup 3 subtable" fivesuperior
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" fivesuperior
 EndChar
@@ -843,6 +850,7 @@ SplineSet
  332 13 382 80 382 184 c 0
  382 284 332 349 254 349 c 0
 EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22-1" six.onum
 Substitution2: "'sups' Superscript lookup 3 subtable" sixsuperior
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" sixsuperior
 EndChar
@@ -874,6 +882,7 @@ SplineSet
  103 0 94 -1 65 -3 c 1
  56 10 l 1x80
 EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22-1" seven.onum
 Substitution2: "'sups' Superscript lookup 3 subtable" sevensuperior
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" sevensuperior
 EndChar
@@ -910,6 +919,7 @@ SplineSet
  176 655 128 611 128 544 c 0
  128 494 160 454 223 423 c 2xd8
 EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22-1" eight.onum
 Substitution2: "'sups' Superscript lookup 3 subtable" eightsuperior
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" eightsuperior
 EndChar
@@ -941,6 +951,7 @@ SplineSet
  370 516 358 565 340 597 c 0
  318 637 285 656 240 656 c 0
 EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22-1" nine.onum
 Substitution2: "'sups' Superscript lookup 3 subtable" ninesuperior
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ninesuperior
 EndChar
@@ -4354,11 +4365,11 @@ VStem: 123 64<488.5 573 488.5 575> 336 64<496 577.5> 421 64<108.5 193 108.5 195>
 LayerCount: 2
 Fore
 SplineSet
-266 689 m 0
+266 689 m 0xf7e0
  342 689 400 625 400 541 c 0
  400 449 338 380 257 380 c 0
  179 380 123 442 123 528 c 0
- 123 622 183 689 266 689 c 0
+ 123 622 183 689 266 689 c 0xf7e0
 264 666 m 0
  215 666 187 617 187 529 c 0
  187 448 212 403 258 403 c 0
@@ -4387,7 +4398,7 @@ SplineSet
 238 -20 m 1
  198 -20 l 1
  589 709 l 1
- 629 709 l 1
+ 629 709 l 1xefe0
  238 -20 l 1
 EndSplineSet
 Ligature2: "'frac' Diagonal Fractions lookup 7 subtable" percent zerosuperior
@@ -33369,19 +33380,20 @@ EndChar
 StartChar: one.onum
 Encoding: 855 -1 855
 Width: 500
-Flags: HW
-HStem: -3 30<96 152 373 429> 370 38<79 113.2>
-VStem: 221 85<39.8297 404.751>
+Flags: W
+HStem: -3 30<96 152 373 429>
+VStem: 221 85<37.2774 405.551>
 LayerCount: 2
 Fore
 SplineSet
-78 373 m 1
- 72 408 l 1
- 155 433 311 474 359 485 c 1
- 359 451 l 1
- 359 451 306 442 306 401 c 2
+74 371 m 1
+ 72 412 l 1
+ 72 412 152 429 203 442 c 24
+ 265 458 361 486 361 486 c 1
+ 361 454 l 1
+ 361 454 306 451 306 401 c 2
  306 96 l 2
- 305.147460938 43.9970703125 325.030524642 32.5697933227 373 30 c 2
+ 306 34 325.030524642 32.5697933227 373 30 c 2
  429 27 l 1
  429 -3 l 1
  382 -2 344 -2 330 -1 c 0
@@ -33389,90 +33401,84 @@ SplineSet
  239 0 183 -1 96 -3 c 1
  96 27 l 1
  152 30 l 2
- 206 33 221 44 221 96 c 2
+ 213.039109698 33.2699523052 221 36 221 96 c 2
  221 372 l 2
- 221 396 219 406 213 406 c 0
- 200.958007812 406 137 380 98 370 c 1
- 78 373 l 1
+ 221 396 220 407 214 407 c 0
+ 201.958007812 407 129 376 90 366 c 1
+ 74 371 l 1
 EndSplineSet
 EndChar
 
 StartChar: two.onum
 Encoding: 856 -1 856
 Width: 500
-Flags: MW
+Flags: HW
+HStem: -8 21G<408.5 467> -3 80<151 396.25> 417 64<138.767 302.425>
+VStem: 332 85<270.092 388.987>
 LayerCount: 2
 Fore
 SplineSet
-33 11 m 1
- 59 68 l 1
- 230 178 l 2
- 282.957427251 212.066181273 329 257.935743778 329 328 c 3
- 329 384.035702904 296.022985469 422 209 422 c 3
- 163.98889026 422 125 404 84 341 c 1
+25 9 m 1x70
+ 35 22 53 54 57 66 c 1
+ 182 140 l 2
+ 229.339831635 167.711120957 332 241.994186243 332 328 c 3
+ 332 384.036132812 301.0234375 417 214 417 c 3
+ 162.990197021 417 110 382 78 348 c 1
  58 363 l 1
- 101 435 l 1
- 143 474 178.330783835 479 226 479 c 3
- 386.012499512 479 421 419 421 340 c 3
- 421 265.053710938 360.859919661 208.637826378 325 186 c 2
- 146 73 l 1
- 331 77 353 75 468 80 c 1
- 466 59 466 52 466 38 c 0
- 466 23 466 17 468 -3 c 1
- 341 -1 282 0 239 0 c 0
- 195 0 159 -1 37 -3 c 1
- 33 11 l 1
+ 117 446 l 1
+ 148 470 188.331054688 481 236 481 c 3
+ 371.003703653 481 417 419 417 340 c 3
+ 417 281.991210938 368.530173895 217.722420785 289 166 c 2
+ 151 77 l 1x70
+ 221 77 392 74 468 87 c 1
+ 466 66 466 51 466 37 c 0
+ 466 22 466 13 468 -7 c 1xb0
+ 358 -1 282 0 239 0 c 0
+ 195 0 155 -1 33 -3 c 1
+ 25 9 l 1x70
 EndSplineSet
 EndChar
 
-StartChar: NameMe.857
+StartChar: three.onum
 Encoding: 857 -1 857
 Width: 500
-Flags: HW
-HStem: -20 41<191.5 224> 334 34<224 241.5 202.5 279.5> 622 67<199 251>
-VStem: 336 82<511 537.5> 369 93<200.5 235.5>
+Flags: W
+HStem: -237 54<78 198.834> 142 36<154 211.953> 414 64<144.074 279.841>
+VStem: 314 86<294.852 379.407> 361 86<-11.677 119.367>
 LayerCount: 2
 Fore
 SplineSet
-43 498 m 1xf0
- 72 622 l 1
- 119 670 165 689 233 689 c 0
- 344 689 418 630 418 541 c 0xf0
- 418 481 388 436 308 374 c 1
- 357 365 381 357 406 339 c 0
- 442 314 462 273 462 224 c 0
- 462 177 445 133 411 92 c 0
- 356 25 264 -20 184 -20 c 0
- 146 -20 103 -12 50 6 c 1
- 44 56 36 92 15 153 c 1
- 42 163 l 1
- 61 109 73 87 98 64 c 0
- 127 36 168 21 215 21 c 0
- 308 21 369 88 369 190 c 0xe8
- 369 281 321 334 238 334 c 0
- 210 334 192 329 154 312 c 1
- 147 318 l 1
- 159 371 l 1
- 166 370 172 370 174 370 c 0
- 188 369 199 368 206 368 c 0
- 277 368 336 431 336 505 c 0
- 336 570 283 622 219 622 c 0
- 166 622 103 588 92 554 c 2
- 74 498 l 1
- 43 498 l 1xf0
+66 365 m 1xf0
+ 122 443 l 1
+ 144 461 196.944487245 478 233 478 c 3
+ 340.042047813 478 400 431 400 356 c 3xf0
+ 400 307.833621685 360 260 299 216 c 1
+ 415 220 447 125.095703125 447 78 c 3
+ 447 -49.0039369469 295 -237 78 -237 c 1
+ 17 -176 l 1
+ 23 -158 l 1
+ 23 -158 87.9524079167 -183 130 -183 c 3
+ 244 -183 361 -90 361 41 c 3xe8
+ 361 115.006756448 323 162 240 162 c 3
+ 212 162 183 154 154 142 c 1
+ 154 178 l 1
+ 224 190 314 216.995098157 314 319 c 3
+ 314 371 274.137695312 414 216 414 c 3
+ 141.45786561 414 106 367 77 347 c 1
+ 66 365 l 1xf0
 EndSplineSet
 EndChar
 
-StartChar: NameMe.858
+StartChar: four.onum
 Encoding: 858 -1 858
 Width: 500
-Flags: HW
-HStem: -3 20 0 20 181 64<65 280 65 280 13 280 364 388 388 391 391 393.5> 674 20<359 359>
-VStem: 280 84<106 181 106 181 245 384>
+Flags: W
+HStem: -3 30<158 263.559 424 472> 181 64<65 280 364 470.556> 674 20G<304.185 371>
+VStem: 280 84<38.3298 181 245 597>
 LayerCount: 2
 Fore
 SplineSet
-280 181 m 1xa8
+280 181 m 1
  13 181 l 1
  2 204 l 1
  285 667 l 1
@@ -33488,13 +33494,13 @@ SplineSet
  364 106 l 2
  366 44 374 34 424 30 c 2
  472 27 l 1
- 472 -3 l 1xb8
- 385 -1 345 0 315 0 c 0x48
+ 472 -3 l 1
+ 385 -1 345 0 315 0 c 0
  287 0 248 -1 158 -3 c 1
  158 27 l 1
  220 30 l 2
  270 33 278 44 280 106 c 2
- 280 181 l 1xa8
+ 280 181 l 1
 280 245 m 1
  280 597 l 1
  65 245 l 1
@@ -33502,16 +33508,16 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: NameMe.859
+StartChar: five.onum
 Encoding: 859 -1 859
 Width: 500
-Flags: HW
-HStem: -20 45<173.5 206.5> 377 69<240 266>
-VStem: 374 85<216 255>
+Flags: W
+HStem: -20 45<106.671 275.621> 377 69<169.804 300.092> 605 84<127 432>
+VStem: 75 43<396 558.556> 81 46<442.444 605> 374 85<152.888 297.821>
 LayerCount: 2
 Fore
 SplineSet
-127 605 m 1
+127 605 m 1xec
  118 396 l 1
  180 434 216 446 264 446 c 0
  378 446 459 366 459 253 c 0
@@ -33525,7 +33531,7 @@ SplineSet
  310 25 374 90 374 201 c 0
  374 309 314 377 218 377 c 0
  169 377 142 364 95 316 c 1
- 75 322 l 1
+ 75 322 l 1xf4
  78 364 81 458 81 545 c 0
  81 577 80 623 79 684 c 1
  84 689 l 1
@@ -33535,16 +33541,16 @@ SplineSet
  435 666 435 658 435 645 c 0
  435 631 435 623 437 605 c 1
  432 600 l 1
- 309 600 254 601 127 605 c 1
+ 309 600 254 601 127 605 c 1xec
 EndSplineSet
 EndChar
 
-StartChar: NameMe.860
+StartChar: six.onum
 Encoding: 860 -1 860
 Width: 500
-Flags: HW
-HStem: -20 33<211 293 211 306> 349 60<268 293>
-VStem: 32 91<164 238 152.5 315.5> 382 86<150.5 234>
+Flags: W
+HStem: -20 33<194.459 311.451> 349 60<208.633 322.714>
+VStem: 32 91<116.972 344.125> 382 86<113.304 283.606>
 LayerCount: 2
 Fore
 SplineSet
@@ -33568,15 +33574,16 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: NameMe.861
+StartChar: seven.onum
 Encoding: 861 -1 861
 Width: 500
-Flags: HW
-HStem: -3 20 0 20 603 81<235 312.5>
+Flags: W
+HStem: -3 21G<56 79.5 142.5 178> 603 86<91.4238 409>
+VStem: 44 30<477 533>
 LayerCount: 2
 Fore
 SplineSet
-56 10 m 1x80
+56 10 m 1
  300 402 l 2
  338 463 369 521 409 603 c 1
  142 603 l 2
@@ -33590,19 +33597,19 @@ SplineSet
  352 684 408 685 497 689 c 1
  497 659 l 1
  314 330 l 2
- 248 210 199 106 157 -3 c 1xa0
- 128 -1 119 0 111 0 c 0x40
+ 248 210 199 106 157 -3 c 1
+ 128 -1 119 0 111 0 c 0
  103 0 94 -1 65 -3 c 1
- 56 10 l 1x80
+ 56 10 l 1
 EndSplineSet
 EndChar
 
-StartChar: NameMe.862
+StartChar: eight.onum
 Encoding: 862 -1 862
 Width: 500
-Flags: HW
-HStem: -20 34<198.5 281.5 198.5 291.5> 655 34<211.5 283.5>
-VStem: 30 71<120 185> 53 75<519 560.5> 368 68<515 570.5> 385 79<144.5 191>
+Flags: W
+HStem: -20 34<170.587 307.429> 655 34<180.917 311.428>
+VStem: 30 71<78.2182 245.304> 53 75<480.566 592.373> 368 68<472.72 606.887> 385 79<112.851 232.095>
 LayerCount: 2
 Fore
 SplineSet
@@ -33616,27 +33623,27 @@ SplineSet
  112 -20 30 55 30 159 c 0
  30 211 50 256 88 294 c 0
  110 315 127 326 168 345 c 1xe4
-284 295 m 2xe4
+284 295 m 2
  204 331 l 1
  130 286 101 240 101 167 c 0
  101 73 156 14 241 14 c 0
- 322 14 385 80 385 164 c 0
- 385 218 348 266 284 295 c 2xe4
-223 423 m 2xd8
+ 322 14 385 80 385 164 c 0xe4
+ 385 218 348 266 284 295 c 2
+223 423 m 2
  278 396 l 1
  343 438 368 477 368 534 c 0
  368 607 320 655 247 655 c 0
- 176 655 128 611 128 544 c 0
- 128 494 160 454 223 423 c 2xd8
+ 176 655 128 611 128 544 c 0xd8
+ 128 494 160 454 223 423 c 2
 EndSplineSet
 EndChar
 
-StartChar: NameMe.863
+StartChar: nine.onum
 Encoding: 863 -1 863
 Width: 500
-Flags: HW
-HStem: 256 61<200 216> 656 33<198.5 262.5>
-VStem: 20 86<440 522> 370 87<425.5 494>
+Flags: W
+HStem: -20 25<82 101.157> 256 61<170.595 284.25> 656 33<175.417 299.143>
+VStem: 20 86<392.243 557.479> 370 87<328.52 550.077>
 LayerCount: 2
 Fore
 SplineSet
