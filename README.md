@@ -1,7 +1,7 @@
-HZ Renaissance
+HZ Flavius
 ======================
 
-HZ Renaissance is a project to develop a full-featured, free and open-source implementation of Hermann Zapf's Palatino design. The "HZ" in the name is in reference to Hermann Zapf.
+HZ Johannes is a project to develop a full-featured, free and open-source implementation of Hermann Zapf's Palatino design. The "HZ" in the name is in reference to Hermann Zapf. "Flavius" is in refrerence to the Flavian Palace (Domus Flavia), constructed on the Palatine Hill.
 
 
 Acknowledgments
@@ -9,7 +9,6 @@ Acknowledgments
 © 2014, (URW)++.  
 © 2019, Daniel Benjamin Miller.  
 The original Palatino design was created by Hermann Zapf.  
-Additionally, this project owes some inspriation to Ralf Stubner's FPL (Neu).
 
 Licensing
 ------------
