@@ -23,7 +23,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1464719619
-ModificationTime: 1555400750
+ModificationTime: 1555403424
 PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
@@ -114,7 +114,7 @@ ChainSub2: coverage "'ordn' Ordinals lookup 20 contextual 0" 0 0 0 1
  1
   SeqLookup: 0 "Single Substitution lookup 21"
 EndFPST
-LangName: 1033 "(URW)+-+-,Copyright 2014 by (URW)+-+- Design & Development" "" "" "" "P052-Bold" "Version 1.00"
+LangName: 1033 "Copyright 2014 by (URW)+-+- Design & Development.+AAoA-Copyright 2019 by Daniel Benjamin Miller." "" "" "" "Domitian-Bold" "Version 1.00"
 Encoding: Custom
 Compacted: 1
 UnicodeInterp: none
