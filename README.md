@@ -1,7 +1,7 @@
-HZ Flavius
+Domitian
 ======================
 
-HZ Flavius is a project to develop a full-featured, free and open-source implementation of Hermann Zapf's Palatino design. The "HZ" in the name is in reference to Hermann Zapf. "Flavius" is in refrerence to the Flavian Palace (Domus Flavia), constructed on the Palatine Hill.
+Domitian is a project to develop a full-featured, free and open-source implementation of Hermann Zapf's Palatino design. "Domitian" is in refrerence to builder of the Flavian Palace, located on the Palatine Hill.
 
 
 Acknowledgments
