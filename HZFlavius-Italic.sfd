@@ -121,7 +121,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 551 19 17
+WinInfo: 722 19 8
 BeginPrivate: 4
 BlueValues 23 [-18 0 471 482 692 706]
 StdHW 4 [41]
@@ -31313,7 +31313,7 @@ SplineSet
  520 432 554 457 597 457 c 0
  605 457 609 457 619 455 c 1xd8
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: uni0499
