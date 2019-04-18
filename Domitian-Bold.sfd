@@ -23,7 +23,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1464719619
-ModificationTime: 1555403424
+ModificationTime: 1555613659
 PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
@@ -58,13 +58,13 @@ OS2XHeight: 454
 OS2Vendor: 'UKWN'
 OS2CodePages: 6000009f.00000000
 OS2UnicodeRanges: 00000287.00000800.00000000.00000000
-Lookup: 1 0 0 "'onum' Oldstyle Figures lookup 22" { "'onum' Oldstyle Figures lookup 22-1" ("onum") } ['onum' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DEU ' 'MOL ' 'ROM ' 'SRB ' 'TRK ' 'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' Access All Alternates lookup 0" { "'aalt' Access All Alternates lookup 0 subtable"  } ['aalt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DEU ' 'MOL ' 'ROM ' 'SRB ' 'TRK ' 'dflt' > ) ]
 Lookup: 3 0 0 "'aalt' Access All Alternates lookup 1" { "'aalt' Access All Alternates lookup 1 subtable"  } ['aalt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DEU ' 'MOL ' 'ROM ' 'SRB ' 'TRK ' 'dflt' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 2" { "'locl' Localized Forms in Latin lookup 2 subtable"  } ['locl' ('latn' <'MOL ' 'ROM ' > ) ]
 Lookup: 1 0 0 "'sups' Superscript lookup 3" { "'sups' Superscript lookup 3 subtable" ("superior") } ['sups' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DEU ' 'MOL ' 'ROM ' 'SRB ' 'TRK ' 'dflt' > ) ]
 Lookup: 1 0 0 "'numr' Numerators lookup 4" { "'numr' Numerators lookup 4 subtable"  } ['numr' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DEU ' 'MOL ' 'ROM ' 'SRB ' 'TRK ' 'dflt' > ) ]
 Lookup: 1 0 0 "'dnom' Denominators lookup 5" { "'dnom' Denominators lookup 5 subtable"  } ['dnom' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DEU ' 'MOL ' 'ROM ' 'SRB ' 'TRK ' 'dflt' > ) ]
+Lookup: 1 0 0 "'onum' Oldstyle Figures lookup 22" { "'onum' Oldstyle Figures lookup 22-1" ("onum") } ['onum' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DEU ' 'MOL ' 'ROM ' 'SRB ' 'TRK ' 'dflt' > ) ]
 Lookup: 4 0 0 "'frac' Diagonal Fractions lookup 6" { "'frac' Diagonal Fractions lookup 6 subtable"  } ['frac' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DEU ' 'MOL ' 'ROM ' 'SRB ' 'TRK ' 'dflt' > ) ]
 Lookup: 4 0 0 "'frac' Diagonal Fractions lookup 7" { "'frac' Diagonal Fractions lookup 7 subtable"  } ['frac' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DEU ' 'MOL ' 'ROM ' 'SRB ' 'TRK ' 'dflt' > ) ]
 Lookup: 4 0 0 "'frac' Diagonal Fractions lookup 8" { "'frac' Diagonal Fractions lookup 8 subtable"  } ['frac' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DEU ' 'MOL ' 'ROM ' 'SRB ' 'TRK ' 'dflt' > ) ]
