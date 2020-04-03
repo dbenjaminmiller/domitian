@@ -3,8 +3,8 @@ FontName: Domitian-Bold
 FullName: Domitian Bold
 FamilyName: Domitian
 Weight: Bold
-Copyright: Copyright (URW)++,Copyright 2014 by (URW)++ Design & Development\nCopyright 2019, Daniel Benjamin Miller
-Version: 1.00
+Copyright: Copyright (c) 2014, 2015 by (URW)++ Design & Development\nCopyright (c) 2019, 2020 by Daniel Benjamin Miller
+Version: 1.0.1
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -23,7 +23,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1464719619
-ModificationTime: 1576096325
+ModificationTime: 1585940655
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -160,12 +160,13 @@ EndFPST
 LangName: 1033 "Copyright 2014 by (URW)+-+- Design & Development.+AAoA-Copyright 2019 by Daniel Benjamin Miller." "" "" "" "Domitian-Bold" "Version 1.00"
 DesignSize: 120
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 38 14
+WinInfo: 380 38 14
 BeginPrivate: 8
 BlueValues 39 [-17 0 678 695 459 471 660 660 720 724]
 StdHW 4 [55]

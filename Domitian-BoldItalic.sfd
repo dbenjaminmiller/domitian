@@ -3,8 +3,8 @@ FontName: Domitian-BoldItalic
 FullName: Domitian Bold Italic
 FamilyName: Domitian
 Weight: Bold
-Copyright: Copyright (URW)++,Copyright 2014 by (URW)++ Design & Development\nCopyright 2019, Daniel Benjamin Miller
-Version: 1.00
+Copyright: Copyright (c) 2014, 2015 by (URW)++ Design & Development\nCopyright (c) 2019, 2020 by Daniel Benjamin Miller
+Version: 1.0.1
 ItalicAngle: -10
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -23,7 +23,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1464719619
-ModificationTime: 1576100872
+ModificationTime: 1585940684
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5

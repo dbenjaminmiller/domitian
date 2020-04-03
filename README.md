@@ -6,8 +6,8 @@ Domitian is a project to develop a full-featured, free and open-source implement
 
 Acknowledgments
 ------------
-© 2014, (URW)++.  
-© 2019, Daniel Benjamin Miller.  
+Copyright (c) 2014, 2015 by (URW)++ Design & Development
+Copyright (c) 2019, 2020 by Daniel Benjamin Miller
 The original Palatino design was created by Hermann Zapf.  
 
 Licensing

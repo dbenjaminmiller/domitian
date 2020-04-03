@@ -3,8 +3,8 @@ FontName: Domitian-Italic
 FullName: Domitian Italic
 FamilyName: Domitian
 Weight: Regular
-Copyright: Copyright (URW)++,Copyright 2014 by (URW)++ Design & Development\nCopyright 2019, Daniel Benjamin Miller
-Version: 1.00
+Copyright: Copyright (c) 2014, 2015 by (URW)++ Design & Development\nCopyright (c) 2019, 2020 by Daniel Benjamin Miller
+Version: 1.0.1
 ItalicAngle: -10
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -23,7 +23,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1464719619
-ModificationTime: 1576100025
+ModificationTime: 1585940664
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -162,12 +162,13 @@ EndFPST
 LangName: 1033 "Copyright 2014 by (URW)+-+- Design & Development.+AAoA-Copyright 2019 by Daniel Benjamin Miller." "" "" "" "Domitian-Italic" "Version 1.00"
 DesignSize: 120
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 8568 9 3
+WinInfo: 369 9 3
 BeginPrivate: 6
 BlueValues 31 [-18 0 689 707 470 482 733 733]
 StdHW 4 [42]
