@@ -23,7 +23,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1464719618
-ModificationTime: 1585940671
+ModificationTime: 1585956960
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -78,7 +78,6 @@ Lookup: 4 0 0 "'frac' Diagonal Fractions lookup 12" { "'frac' Diagonal Fractions
 Lookup: 4 0 0 "'frac' Diagonal Fractions lookup 13" { "'frac' Diagonal Fractions lookup 13 subtable"  } ['frac' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DEU ' 'MOL ' 'ROM ' 'SRB ' 'TRK ' 'dflt' > ) ]
 Lookup: 4 0 0 "'frac' Diagonal Fractions lookup 14" { "'frac' Diagonal Fractions lookup 14 subtable"  } ['frac' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DEU ' 'MOL ' 'ROM ' 'SRB ' 'TRK ' 'dflt' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 15" { "'liga' Standard Ligatures in Latin lookup 15 subtable"  } ['liga' ('latn' <'DEU ' 'MOL ' 'ROM ' 'SRB ' 'dflt' > ) ]
-Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 16" { "'liga' Standard Ligatures in Latin lookup 16 subtable"  } ['liga' ('latn' <'AZE ' 'CRT ' 'DEU ' 'MOL ' 'ROM ' 'SRB ' 'TRK ' 'dflt' > ) ]
 Lookup: 1 0 0 "'hist' Historical Forms lookup 18" { "'hist' Historical Forms lookup 18 subtable"  } ['hist' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DEU ' 'MOL ' 'ROM ' 'SRB ' 'TRK ' 'dflt' > ) ]
 Lookup: 1 0 0 "'fina' Terminal Forms lookup 19" { "'fina' Terminal Forms lookup 19 subtable"  } ['fina' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DEU ' 'MOL ' 'ROM ' 'SRB ' 'TRK ' 'dflt' > ) ]
 Lookup: 6 0 0 "'ordn' Ordinals lookup 20" { "'ordn' Ordinals lookup 20 contextual 0"  "'ordn' Ordinals lookup 20 contextual 1"  "'ordn' Ordinals lookup 20 contextual 2"  "'ordn' Ordinals lookup 20 contextual 3"  } ['ordn' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'DEU ' 'MOL ' 'ROM ' 'SRB ' 'TRK ' 'dflt' > ) ]
@@ -209,7 +208,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 810 9 8
+WinInfo: 798 19 8
 BeginPrivate: 6
 BlueValues 31 [-20 0 689 709 459 469 726 728]
 StdHW 4 [51]
@@ -4263,9 +4262,9 @@ SplineSet
  340 27 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'liga' Standard Ligatures in Latin lookup 15 subtable" f l
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" fl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" fl.sc
-Ligature2: "'liga' Standard Ligatures in Latin lookup 16 subtable" f l
 EndChar
 
 StartChar: endash
@@ -9319,10 +9318,10 @@ SplineSet
  536 712 570 728 602 728 c 0
  616 728 628 725 648 717 c 1
 EndSplineSet
+Ligature2: "'liga' Standard Ligatures in Latin lookup 15 subtable" f f
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ff.sc
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ff.sc
 LCarets2: 1 0
-Ligature2: "'liga' Standard Ligatures in Latin lookup 16 subtable" f f
 EndChar
 
 StartChar: ffi
@@ -9498,9 +9497,9 @@ SplineSet
  634 27 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'liga' Standard Ligatures in Latin lookup 15 subtable" f f l
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ffl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ffl.sc
-Ligature2: "'liga' Standard Ligatures in Latin lookup 16 subtable" f f l
 EndChar
 
 StartChar: oneeighth
@@ -41009,6 +41008,7 @@ LayerCount: 2
 Fore
 Refer: 869 -1 N 1 0 0 1 444 0 2
 Refer: 869 -1 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures in Latin lookup 15 subtable" f.sc f.sc
 EndChar
 
 StartChar: fi.sc
@@ -41020,6 +41020,7 @@ LayerCount: 2
 Fore
 Refer: 872 -1 N 1 0 0 1 444 0 2
 Refer: 869 -1 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures in Latin lookup 15 subtable" f.sc i.sc
 EndChar
 
 StartChar: fl.sc
@@ -41031,6 +41032,7 @@ LayerCount: 2
 Fore
 Refer: 875 -1 N 1 0 0 1 444 0 2
 Refer: 869 -1 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures in Latin lookup 15 subtable" f.sc l.sc
 EndChar
 
 StartChar: ffi.sc
@@ -41043,6 +41045,7 @@ Fore
 Refer: 872 -1 N 1 0 0 1 888 0 2
 Refer: 869 -1 N 1 0 0 1 444 0 2
 Refer: 869 -1 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures in Latin lookup 15 subtable" f.sc f.sc i.sc
 EndChar
 
 StartChar: ffl.sc
@@ -41055,6 +41058,7 @@ Fore
 Refer: 875 -1 N 1 0 0 1 888 0 2
 Refer: 869 -1 N 1 0 0 1 444 0 2
 Refer: 869 -1 N 1 0 0 1 0 0 2
+Ligature2: "'liga' Standard Ligatures in Latin lookup 15 subtable" f.sc f.sc l.sc
 EndChar
 EndChars
 EndSplineFont
